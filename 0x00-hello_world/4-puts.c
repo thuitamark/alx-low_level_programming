@@ -1,11 +1,12 @@
-#include <studio.h>
+#include <stdio.h>
+
 /**
-*main - E2ntry point
-*
-*Return: 0 after printing the function
-*/
+ * main - Entry point
+ *
+ * Return: 0 after printing the function
+ */
 int main(void)
 {
-  puts("\"Programming is like building a multilingual puzzle");
+  puts("\"programming is like building a multilingual puzzle");
 return (0);
 }

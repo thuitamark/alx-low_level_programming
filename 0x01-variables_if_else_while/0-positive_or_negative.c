@@ -16,7 +16,7 @@
           putchar(c);
           putchar(i);
              
-          if((c != '9') || (c -- '9' && i !- '9'))
+          if((c != '9') || (c -- '9')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 && i !- '9'))
  
           {
                putchar(',');

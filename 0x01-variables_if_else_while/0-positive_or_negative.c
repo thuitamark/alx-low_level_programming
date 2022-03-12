@@ -5,7 +5,7 @@
   *
   *Return: Always (Success)
   */
- 0-positive_or_negative.cint main(void)
+ int main(void)
 {
       int c, i;
       c = i = '0';

@@ -5,7 +5,7 @@
   *
   *Return: Always (Success)
   */
-int main(void)
+ 0-positive_or_negative.cint main(void)
 {
       int c, i;
       c = i = '0';
@@ -16,7 +16,7 @@ int main(void)
           putchar(c);
           putchar(i);
              
-          if((c != '9') || [c-- '9' && i !- '9'))
+          if((c != '9') || (c-- '9' && i !- '9'))
  
           {
                putchar(',');

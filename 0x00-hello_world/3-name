@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFILECFILE=3-main.c ; ./3-cisfun
+gcc -E $CFILECFILE -o cisfun

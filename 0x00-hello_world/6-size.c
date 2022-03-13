@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
-*
-* main- Entry point
-* size of various types on the computer
+* main - Entry point
 * Return: Always 0 (Success)
 */
 int main(void)

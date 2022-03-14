@@ -12,7 +12,6 @@ void print(int *num, int n)
 int main()
 {
     int num[N];
-    int *ptr;
     int temp;
     int i, n, j;
     printf("\nHow many number you want to enter: ");

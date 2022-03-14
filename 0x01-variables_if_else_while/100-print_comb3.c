@@ -2,11 +2,6 @@
 #include<string.h>
 #define N 10
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success/Correct)
- */
 
 int main(void) 
 void print(int *num, int n)

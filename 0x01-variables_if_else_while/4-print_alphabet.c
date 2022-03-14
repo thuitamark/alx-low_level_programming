@@ -11,10 +11,10 @@ char alphabet;
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 
-else if (alphabet == 'q')
+else if (alphabet == 'e')
 continue;
 
-else if (alphabet == 'e')
+else if (alphabet == 'q')
 continue;
 
 putchar(alphabet);

@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main -Entry point
-   *
-  *Return: Always (Success)
-  */
- int main(void)
+ *
+ *Return: Always (Success)
+ */
+int main(void)
 
 {
 char lower_case:

@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  *main - Entry point
-  *
-  *Return: Always (Success)
-  */
- int main(void)
+*main - Entry point
+*
+*Return: Always (Success)
+*/
+int main(void)
 {
 int n;
 srand(time(0));

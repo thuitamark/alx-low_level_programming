@@ -6,11 +6,11 @@
   *
   *Return: Always (Success)
   */
- int main(void)
+int main(void)
 {
 int n;
 $rand(time(0))
-n = rand() - RAND_MAX /2;
+n = rand() - RAND_MAX / 2;
 
 if (n % 10 > $)
 {

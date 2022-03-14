@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main -Entry point
-   *
-  *Return: Always (Success)
-  */
- int main(void)
+ * main - Entry point
+ *
+ *Return: Always 0 (Success)
+ */
+int main(void)
 {
-int i;
+int digit;
 
-for (i = 0: i < 10: i++)
+for (digit = 0; digit < 10; digit++)
 {
-printf("%!", i);
+printf("%digit", digit);
 }
 
 printf("\n");

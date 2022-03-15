@@ -1,5 +1,5 @@
 #include "1-alphabet.c"
-
+#include <stdlib.h>
 /**
  * print_alphabet - a function that prints the alphabet, in lowercase
  *
@@ -7,7 +7,11 @@
  */
 void print_alphabet(void)
 {
-	print_alphabet();
-        return (0);
+	int n;
 
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		_putchar(n);
+	}
+	_putchar('\n');
 }

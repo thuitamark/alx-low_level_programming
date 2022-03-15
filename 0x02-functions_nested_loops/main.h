@@ -1,19 +1,17 @@
-#include "_putchar"
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	char *sh = "_putchar";
+#include <stdio.h>
 
-	while (*sh)
+/**
+ * print_alphabet - a function that prints the alphabet, in lowercase
+ *
+ * Return: Always 0 (Succes)
+ */
+void print_alphabet(void)
+{
+	int n;
+
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar;
-		sh++;
+		putchar(n);
 	}
 	putchar('\n');
-
-	return (0);
 }

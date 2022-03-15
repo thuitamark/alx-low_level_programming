@@ -7,11 +7,7 @@
  */
 int main(void)
 {
-	int n;
+	print_alphabet();
+        return (0);
 
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		putchar(n);
-	}
-	putchar('\n');
 }

@@ -1,22 +1,19 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
-  *print_alphabet_x10 - repeats the print_alphabet 10 yimes.
-  *Return: Nothing.
-  */
-int main void print_alphabet_x10(void)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
+	char *sh = "Holberton";
 
-int i;
-char c;
-for (i = 0; i < 10; ++i)
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
-{
-
-for (c = 'a'; c <= 'z'; c++)
-{
-putchar(c);
-}
-putchar('\n');
-}
-
+	return (0);
 }

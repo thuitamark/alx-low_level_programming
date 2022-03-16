@@ -1,11 +1,27 @@
 #include "main.h"
+
 /**
- * add - a function that adds two integers and returns the result
- * @one: first number input
- * @two: second number input
- * Return: one + two
+ * print_alphabet_x10 - print alphabet
+ *
+ * Return: Always 0.
  */
-int add(int one, int two)
+void print_alphabet_x10(void)
 {
-	return (one + two);
+int alphabet;
+int count;
+
+
+count = 0;
+while (count < 10)
+{
+for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+{
+_putchar(alphabet);
+}
+
+count++;
+_putchar('\n');
+}
+
+
 }

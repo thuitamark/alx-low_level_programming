@@ -1,83 +1,24 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
- * main - prints the biggest prime factor of a number.
+ * main - finds and prints the largest prime factor.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	long int number;
+	long int i, p, fp = 612852475143;
 
-	number = 612852475143;
-
-	if (isPrime(number) == 1)
+	i = 2;
+	while (i <= 612852475143 && fp > 1)
 	{
-		printf("%ld\n", number);
-	}
-	else
-	{
-		printf("%ld\n", biggestFactor(number));
-	}
-	return (0);
-}
-/**
- * isPrime - analise if a number is prime or not
- * @n: number to check
- * Return: true if it is prime false if not
- */
-int isPrime(long int n)
-{
-	int i;
-
-	if (n <= 1)
-	{
-		return (0);
-	}
-	else if (n == 2)
-	{
-		return (1);
-	}
-	else
-	{
-		for (i = 2; i < n; i++)
-		{
-			if (n % i == 0)
-			{
-				return (0);
-			}
-		}
-	return (1);
-	}
-}
-/**
- * biggestFactor - returns the biggest prime factor of a number
- * @a: number to check
- * Return: biggest factor
- */
-long int biggestFactor(long int a)
-{
-	long int i, factor;
-
-	factor = a;
-	for (i = 2; i <= factor; i++)
-	{
-		if (isPrime(factor) == 1)
-		{
-			break;
-		}
+		p = i;
+		if ((fp % p) == 0)
+			fp = fp / p;
 		else
-		{
-			if ((factor % i == 0) && (isPrime(i) == 1))
-			{
-				factor = factor / i;
-				continue;
-			}
-			else
-			{
-				factor = factor;
-			}
-		}
+			i++;
 	}
-	return (factor);
+	printf("%ld\n", p);
+
+	return (0);
 }

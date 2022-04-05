@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
+
+/**
  * main - Entry point
  *
  * @argc: Counts the number of parameters that go into main

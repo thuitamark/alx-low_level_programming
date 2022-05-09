@@ -7,10 +7,13 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	unsigned int i = 0;
-	const listint_t	 *new_node = h;
+    size_t num = 0;
 
-	for (; new_node; new_node = new_node->next)
-		i++;
-		return (i);
+    while (h)
+    {
+        num++;
+        h = h->next;
+    }
+
+    return (num);
 }
